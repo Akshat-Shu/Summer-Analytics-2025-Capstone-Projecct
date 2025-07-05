@@ -9,10 +9,10 @@
    - **Demand-Based Pricing Model** - Predicts price based on various factors like queue length, traffic, special days, and vehicle type.
 
 5. **Saving Predictions** - Stores the output from both models for plotting
-![Workflow](workflow.png)
+![Workflow](Assets/workflow.png)
 
 ## Architecture
-![Architecture](architecture.png)
+![Architecture](Assets/architecture.png)
 
 ### Baseline Linear Model
 $$price_{t+1}=price_t + \alpha\frac{Occupancy}{Capacity}$$
@@ -35,13 +35,13 @@ $$price = Base-Price \times (1+Normalized-Demand)$$
 
 # Results
 ## Model 1:
-![Model 1 Results](model_1.png)
+![Model 1 Results](Assets/model_1.png)
 
 - The prices always increase since the price predicted at next time stemp is always greater than the price at the current time step.
 
 ## Model 2:
-![Model 2 Results](model_2_small.png)
-![Model 2 Results](model_2_medium.png)
+![Model 2 Results](Assets/model_2_small.png)
+![Model 2 Results](Assets/model_2_medium.png)
 
 - It can be noticed that for a given day, the price rises during the beginning of the day and tends to fall near the end of the day.
 
