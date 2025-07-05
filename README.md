@@ -23,7 +23,7 @@ $$price_{t+1}=price_t + \alpha\frac{Occupancy}{Capacity}$$
 
 ### Demand-Based Pricing Model
 
-$$Demand = \alpha \frac{Occupancy}{Capacity}+\beta \times QueueLength - \gamma \times Traffic + \delta \times IsSpecialDay + \epsilon \times VehicleTypeWeight - \frac{1}{1}$$
+$$Demand = \alpha \frac{Occupancy}{Capacity}+\beta \times QueueLength - \gamma \times Traffic + \delta \times IsSpecialDay + \epsilon \times VehicleTypeWeight - \frac{1}{2}$$
 
 $$Normalized-Demand = tanh(Demand)$$
 
